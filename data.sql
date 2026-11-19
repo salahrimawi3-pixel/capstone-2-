@@ -1,6 +1,3 @@
-
-
-
 -- 02_data.sql  |  Test data: 10 rows in each main table.  Run AFTER 01_tables.sql (Run Script, F5).
 -- Test password for every user: Passw0rd!   Dates are relative to the day you run this file.
 SET DEFINE OFF;
