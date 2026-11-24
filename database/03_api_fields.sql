@@ -1,0 +1,3 @@
+-- Apply once after the seed, or apply this file alone to an existing Capstone schema.
+ALTER TABLE TRIP_STOPS ADD (ETA_OFFSET_SECONDS NUMBER CHECK (ETA_OFFSET_SECONDS >= 0));
+ALTER TABLE BUS_ROUTES ADD (PLAN_KEY VARCHAR2(36) UNIQUE, MATRIX_SOURCE VARCHAR2(100));
